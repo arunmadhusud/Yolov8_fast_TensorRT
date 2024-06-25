@@ -4,7 +4,7 @@ This project aims to increase the inference speed of the Yolov8 model. The Pytor
 
 ## Results
 
-The average processing time for each frame is lower for the TensorRT engine compared to the Pytorch model and ONNX model. The output videos for the Pytorch model and TensorRT engine can be found at the following links:
+The YoloV8 TensorRT model inference is faster than Pytorch and ONNX. The output videos for the Pytorch model and TensorRT engine can be found at the following links. The FPS indicated in the video is based on the average prediction time per frame.
 
 - [Watch TensorRT results here](https://drive.google.com/file/d/130vOZHwt3mteeo0hgahW2v_IXt973yXZ/view?usp=drive_link)
 - [Watch Pytorch results here](https://drive.google.com/file/d/1hFDYpUp72P7sF3UP--w2KJBMShrBYL-N/view?usp=drive_link)
