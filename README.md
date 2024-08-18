@@ -2,6 +2,8 @@
 
 This project aims to increase the inference speed of the Yolov8 model. The Pytorch model is downloaded from the Ultralytics library. The model is converted to ONNX format and then to a TensorRT engine using the TensorRT Python API. The inference speed is compared between the Pytorch model, ONNX model, and TensorRT engine. The code is run on Google Colab. Only the base Pytorch model is downloaded from the Ultralytics library. Post-processing steps, including Non-Maximum Suppression (NMS), bounding box generation, and label creation, are implemented from scratch. This ensures that the model can be used with the TensorRT engine and ONNX model without relying on the Ultralytics library.
 
+The walkthrough of the TensorRT conversion process can be found in my github repository [Pytorch-TensorRT-ONNX](https://github.com/arunmadhusud/Pytorch-TensorRT-ONNX)
+
 ## Results
 
 The YoloV8 TensorRT model inference is faster than Pytorch and ONNX. The output videos for the Pytorch model and TensorRT engine can be found at the following links. The FPS indicated in the video is based on the average prediction time per frame.
